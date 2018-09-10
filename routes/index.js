@@ -1,8 +1,5 @@
 const router = require("express").Router();
-const { index, query, number } = require("../lib/index");
-
-// Index route to the index page.
-router.post("/", index);
+const { query, number } = require("../lib/index");
 
 router.get("/query", query);
 
