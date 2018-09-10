@@ -1,0 +1,19 @@
+{
+  "name": "calleridservice",
+  "version": "1.0.0",
+  "description": "a standalone service that will respond to requests seeking caller id information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekCL/callerIdService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerekCL/callerIdService/issues"
+  },
+  "homepage": "https://github.com/DerekCL/callerIdService#readme"
+}
