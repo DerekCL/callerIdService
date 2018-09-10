@@ -42,7 +42,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use("/logger/winston/v1", routes);
+app.use("/", routes);
 
 /**
  * winston error logging
